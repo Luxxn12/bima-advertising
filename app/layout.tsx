@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   keywords:
     "bima advertising, jasa advertising bali, neon box denpasar, letter timbul bali, billboard bali, signage bali, reklame denpasar",
   authors: [{ name: "Bima Advertising" }],
+  verification: {
+    google: "PaJMZjsyAEyMQZt8iBRh7ueP9NMJuCOFe4dliJCdiPs",
+  },
   openGraph: {
     title: "Bima Advertising - Jasa Advertising Profesional Bali",
     description: "Solusi lengkap signage & reklame untuk bisnis Anda di Bali",
