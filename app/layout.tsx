@@ -15,7 +15,7 @@ export const viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://bimaadvertising.com"),
+  metadataBase: new URL("https://bima-advertising.vercel.app/"),
   title: "Bima Advertising - Jasa Advertising Profesional Denpasar Bali",
   description:
     "Solusi lengkap advertising outdoor & indoor: Neon Box, Letter Timbul, Billboard, Running Text. Pengerjaan rapi, tepat waktu, harga kompetitif. Melayani Denpasar & seluruh Bali.",
