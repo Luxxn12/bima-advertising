@@ -16,16 +16,16 @@ export const viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://bima-advertising.vercel.app/"),
-  title: "Bima Advertising - Jasa Advertising Profesional Denpasar Bali",
+  title: "Toto Advertising - Jasa Advertising Profesional Denpasar Bali",
   description:
     "Solusi lengkap advertising outdoor & indoor: Neon Box, Letter Timbul, Billboard, Running Text. Pengerjaan rapi, tepat waktu, harga kompetitif. Melayani Denpasar & seluruh Bali.",
   keywords:
-    "bima advertising, jasa advertising bali, neon box denpasar, letter timbul bali, billboard bali, signage bali, reklame denpasar",
-  authors: [{ name: "Bima Advertising" }],
+    "toto advertising, jasa advertising bali, neon box denpasar, letter timbul bali, billboard bali, signage bali, reklame denpasar",
+  authors: [{ name: "Toto Advertising" }],
   verification: {
     google: "PaJMZjsyAEyMQZt8iBRh7ueP9NMJuCOFe4dliJCdiPs",
   },
-  applicationName: "Bima Advertising",
+  applicationName: "Toto Advertising",
   category: "Business",
   alternates: {
     canonical: "/",
@@ -41,24 +41,24 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Bima Advertising - Jasa Advertising Profesional Bali",
+    title: "Toto Advertising - Jasa Advertising Profesional Bali",
     description: "Solusi lengkap signage & reklame untuk bisnis Anda di Bali",
     type: "website",
     locale: "id_ID",
     url: "/",
-    siteName: "Bima Advertising",
+    siteName: "Toto Advertising",
     images: [
       {
         url: "/logo.png",
         width: 512,
         height: 512,
-        alt: "Bima Advertising",
+        alt: "Toto Advertising",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bima Advertising - Jasa Advertising Profesional Bali",
+    title: "Toto Advertising - Jasa Advertising Profesional Bali",
     description: "Solusi lengkap signage & reklame untuk bisnis Anda di Bali",
     images: ["/logo.png"],
   },

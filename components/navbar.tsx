@@ -20,7 +20,7 @@ export function Navbar() {
 
   const handleWhatsAppContact = () => {
     window.open(
-      "https://wa.me/6285238545208?text=Halo%20Bima%20Advertising,%20saya%20tertarik%20untuk%20konsultasi%20tentang%20layanan%20advertising",
+      "https://wa.me/6285238545208?text=Halo%20Toto%20Advertising,%20saya%20tertarik%20untuk%20konsultasi%20tentang%20layanan%20advertising",
       "_blank",
     )
     setIsMobileMenuOpen(false)
@@ -61,7 +61,7 @@ export function Navbar() {
             <div className="relative h-36 w-36">
               <Image
                 src="/logo.png"
-                alt="Logo Bima Advertising"
+                alt="Logo Toto Advertising"
                 fill
                 className="object-contain"
                 priority

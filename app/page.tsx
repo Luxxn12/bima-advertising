@@ -96,7 +96,7 @@ export default function Home() {
     {
       name: "Pak Wayan Suarta",
       business: "Warung Makan Bali Asli",
-      text: "Neon box dari Bima Advertising sangat terang dan menarik perhatian. Sejak pasang, pelanggan makin banyak yang tahu tempat saya!",
+      text: "Neon box dari Toto Advertising sangat terang dan menarik perhatian. Sejak pasang, pelanggan makin banyak yang tahu tempat saya!",
       rating: 5,
     },
     {
@@ -302,7 +302,7 @@ export default function Home() {
               <Badge className="mb-4" variant="outline">
                 Keunggulan Kami
               </Badge>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Kenapa Memilih Bima Advertising?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Kenapa Memilih Toto Advertising?</h2>
               <p className="text-muted-foreground text-lg">
                 Dipercaya oleh ratusan bisnis di Bali untuk kebutuhan advertising mereka
               </p>
@@ -367,7 +367,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-6">Galeri Foto</h3>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 {galleryImages.map((imageSrc, index) => {
-                  const altText = `Hasil pekerjaan Bima Advertising ${index + 1}`
+                  const altText = `Hasil pekerjaan Toto Advertising ${index + 1}`
                   return (
                     <div
                       key={imageSrc}
@@ -400,11 +400,11 @@ export default function Home() {
                       key={item}
                       className="aspect-video rounded-lg overflow-hidden bg-muted cursor-pointer relative group animate-fade-up"
                       style={{ animationDelay: `${item * 0.1 + 0.1}s` }}
-                      onClick={() => openModal("video", videoSrc, `Proses produksi Bima Advertising ${item}`)}
+                      onClick={() => openModal("video", videoSrc, `Proses produksi Toto Advertising ${item}`)}
                     >
                       <Image
                         src={thumbnailSrc || "/placeholder.svg"}
-                        alt={`Proses produksi Bima Advertising ${item}`}
+                        alt={`Proses produksi Toto Advertising ${item}`}
                         width={640}
                         height={360}
                         className="w-full h-full object-cover"
@@ -507,7 +507,7 @@ export default function Home() {
           <div className="max-w-5xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12">
               <div className="animate-fade-up animation-delay-100">
-                <h2 className="text-3xl font-bold mb-6">Bima Advertising</h2>
+                <h2 className="text-3xl font-bold mb-6">Toto Advertising</h2>
 
                 <div className="space-y-4 mb-8">
                   <div className="flex items-start gap-3">
@@ -581,7 +581,7 @@ export default function Home() {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Lokasi Bima Advertising"
+                    title="Lokasi Toto Advertising"
                   />
                 </div>
               </div>
@@ -594,7 +594,7 @@ export default function Home() {
       <footer className="bg-foreground text-background py-8">
         <div className="container mx-auto px-4">
           <div className="text-center text-sm">
-            <p className="mb-2">&copy; {new Date().getFullYear()} Bima Advertising. All rights reserved.</p>
+            <p className="mb-2">&copy; {new Date().getFullYear()} Toto Advertising. All rights reserved.</p>
             <p className="text-background/70">Jasa Advertising Profesional di Denpasar, Bali</p>
           </div>
         </div>
