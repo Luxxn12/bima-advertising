@@ -115,7 +115,7 @@ export default function Home() {
 
   const handleWhatsAppContact = () => {
     window.open(
-      "https://wa.me/6285238545208?text=Halo%20Bima%20Advertising,%20saya%20tertarik%20untuk%20konsultasi%20tentang%20layanan%20advertising",
+      "https://wa.me/6285238545208?text=Halo%20Toto%20Advertising,%20saya%20tertarik%20untuk%20konsultasi%20tentang%20layanan%20advertising",
       "_blank",
     )
   }
@@ -554,7 +554,7 @@ export default function Home() {
                           +62 852-3854-5208
                         </button>
                         <a
-                          href="https://wa.me/6289503956858?text=Halo%20Bima%20Advertising,%20saya%20tertarik%20untuk%20konsultasi%20tentang%20layanan%20advertising"
+                          href="https://wa.me/6289503956858?text=Halo%20Toto%20Advertising,%20saya%20tertarik%20untuk%20konsultasi%20tentang%20layanan%20advertising"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-primary-foreground/90 hover:text-accent transition-colors"
